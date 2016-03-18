@@ -1,0 +1,63 @@
+body {
+    background-color: grey;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.flex-col {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-center {
+    justify-content: center;
+    align-items: center;
+}
+
+.application-card {
+    width: 500px;
+    margin-top: 50px;
+    margin-left: 2.5vw;
+    margin-right: 2.5vw;
+}
+
+.explanation-card {
+    width: 500px;
+    margin-top: 100px;
+}
+
+.video-frame {
+    width: 50%;
+    height: 50vh;
+    box-shadow: 0px 0px 5px black;
+}
+
+.video-frame-container {
+    margin-top: 75px;
+    height: 50vh;
+}
+
+.adi-logo {
+    position: absolute;
+    top: -75px;
+    left: -15px;
+    width: 250px;
+}
+
+.dark-band {
+    background-color: rgba(0, 0, 0, .5);
+    height: 150px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    box-shadow: 0px 0px 5px black;
+}

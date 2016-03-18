@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <link type="text/css" rel="stylesheet" href="index.css"/>
+        <link type="text/css" rel="stylesheet" href="lib/materialize/css/materialize.min.css"  media="screen,projection"/>
+    </head>
+
+    <body>
+        <a href="/">
+            <img src="adi-logo-white.png" class="adi-logo">
+        </a>
+
+        <div class="flex-row dark-band">
+        </div>
+
+        <div class="flex-row flex-center">
+            <div class="explanation-card">
+                <div class="card blue-grey darken-1">
+                    <div class="card-content white-text">
+                        <span class="card-title">Excavator</span>
+                        <p>
+                            Excavator incorporates project management and documentation tools required for archaeological excavations in one mobile application. It is currently configured to use a variation of the features system developed by Jesse Jennings, but, in the future, it may have the potential to adapt to other recording systems.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="carousel" style="z-index: 1000; visibility: hidden">
+            <a class="carousel-item" href="#two!"><img src="images/excavator/Screenshot_2016-03-03-16-37-50.png" class="materialboxed"></a>
+            <a class="carousel-item" href="#three!"><img src="images/excavator/Screenshot_2016-03-03-16-38-59.png" class="materialboxed"></a>
+            <a class="carousel-item" href="#four!"><img src="images/excavator/Screenshot_2016-03-03-16-39-06.png" class="materialboxed"></a>
+            <a class="carousel-item" href="#five!"><img src="images/excavator/Screenshot_2016-03-03-16-39-12.png" class="materialboxed"></a>
+            <a class="carousel-item" href="#six!"><img src="images/excavator/Screenshot_2016-03-03-16-39-20.png" class="materialboxed"></a>
+            <a class="carousel-item" href="#seven!"><img src="images/excavator/Screenshot_2016-03-03-16-39-35.png" class="materialboxed"></a>
+            <a class="carousel-item" href="#eight!"><img src="images/excavator/Screenshot_2016-03-03-16-39-42.png" class="materialboxed"></a>
+            <a class="carousel-item" href="#nine!"><img src="images/excavator/Screenshot_2016-03-03-16-39-48.png" class="materialboxed"></a>
+            <a class="carousel-item" href="#ten!"><img src="images/excavator/Screenshot_2016-03-03-17-13-19.png" class="materialboxed"></a>
+        </div>
+
+        <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+        <script src="lib/materialize/js/materialize.min.js"></script>
+
+        <script>
+            $(document).ready(function(){
+                $('.carousel').carousel();
+                $('.carousel').css('visibility', 'visible');
+            });
+        </script>
+    </body>
+
+</html>
